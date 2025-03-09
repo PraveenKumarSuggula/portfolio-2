@@ -11732,7 +11732,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999;
+  color: #f5f5f5;
 }
 
 body.menu-show {
@@ -12052,12 +12052,12 @@ h5,
   color: #fff;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 24px;
+  font-size: 28px;
   font-style: normal;
   /* text-transform: uppercase;  */
 }
@@ -12473,6 +12473,11 @@ h5,
   /* Set the width and height to make it a perfect circle */
   height: 200px;
   border-radius: 50%;
+}
+
+.image-bg {
+  background-image: url(../images/bg_1.png);
+  bottom: 40px;
 }
 
 .slider-text h2 {
@@ -13101,7 +13106,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
+  padding: 5em 0 0 0;
   z-index: 0;
 }
 
@@ -13141,15 +13146,15 @@ textarea.form-control {
 }
 
 .ftco-footer p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .ftco-footer a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .ftco-footer a:hover {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .ftco-footer .ftco-heading-2 {
