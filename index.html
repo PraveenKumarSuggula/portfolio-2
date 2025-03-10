@@ -65,7 +65,7 @@
 			color: rgb(255, 255, 255);
 			overflow: hidden;
 			white-space: nowrap;
-			animation: typing 3s steps(20, end) infinite;
+			animation: typing 10s steps(20, end) infinite;
 		}
 
 		#typing-animation:before {
@@ -76,7 +76,7 @@
 			width: 0;
 			height: 100%;
 			background-color: #ccc;
-			animation: typing-cursor 0.5s ease-in-out infinite;
+			animation: typing-cursor 10s ease-in-out infinite;
 		}
 
 		@keyframes typing {
@@ -166,7 +166,7 @@
 										'M.S. in Computer Science      ',
 										'Ex-Intern at ISN      ',
 										'Ex-Developer at PSS      ',
-										'Teaching Assistant at UNT     ',																				
+										'Teaching Assistant at UNT     ',
 									];
 
 									// Create a function to display the typing animation for a given text
@@ -196,9 +196,11 @@
 								<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 								<!-- <br> -->
 								<p><a href="https://www.linkedin.com/in/praveensuggula/"
-										class="btn btn-primary py-3 px-4" target="_blank">LinkedIn</a>
+										class="btn btn-white btn-outline-white p-3" target="_blank">LinkedIn</a>
 									<a href="https://github.com/praveenkumarsuggula"
-										class="btn btn-white btn-outline-white py-3 px-4" target="_blank">My works</a>
+										class="btn btn-white btn-outline-white p-3" target="_blank">My works</a>
+									<a href="https://drive.google.com/file/d/1ACLNHTAR2Je9R2rh6WqrzzPVvG32qoOI/view?usp=sharing"
+										class="btn btn-white btn-outline-white p-3" target="_blank">Resume</a>
 								</p>
 							</div>
 						</div>
@@ -210,13 +212,13 @@
 
 
 
-	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+	<section class="ftco-about img ftco-section ftco-no-pb about" id="about-section">
 		<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
 					<!-- <div class="row d-flex"> -->
 					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
+						<div class="img-about img d-flex align-items-stretch mt-5">
 							<div class="overlay">
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
@@ -235,54 +237,18 @@
 											</p>
 										</div>
 									</div>
-								</div>
 
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%;"
-											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<span>C#</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%;"
-											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<span>WebAPI</span> <span class="pull-right">97%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 97%;"
-											aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<span>ASP.NET</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%;"
-											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<span>.NET MVC</span> <span class="pull-right">70%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 70%;"
-											aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<span>.NET Core</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%;"
-											aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<span>Angular</span> <span class="pull-right">100%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 100%;"
-											aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<span>Microsoft Azure</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;"
-											aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<span>DevOps (CI/CD)</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%;"
-											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="counter-wrap ftco-animate d-flex mt-md-3 mx-5">
+										<div class="text">
+											<p class="mb-4">
+												<br>
+												<br>
+												<span class="number" data-number="20">0</span> <span>+</span>
+												<span>&nbsp; Projects completed</span>
+											</p>
+											<p><a href="https://github.com/PraveenKumarSuggula?tab=repositories"
+													class="btn btn-primary py-3 px-3">GitHub</a></p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -316,31 +282,135 @@
 									</li>
 									<li class="d-flex"><span>Language:</span> <span>English, Telugu &amp; Hindi</span>
 									</li>
-									<li class="d-flex"><span>Tools & IDEs:</span> <span>Visual Studio, VS Code, SSMS
-											&amp; Postman</span></li>
-									<li class="d-flex"><span>Soft Skills:</span> <span>Quick Learner, Self-Motivated,
-											Strong Problem-Solving Skills and Effective Time Management</span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Docker, Kubernetes (AKS),
-											Terraform, Datadog, Azure Cloud, Git, GitHub, Agile, Scrum</span></li>
-
 								</ul>
-							</div>
-						</div>
-
-
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="20">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://github.com/PraveenKumarSuggula?tab=repositories"
-										class="btn btn-primary py-3 px-3">GitHub</a></p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<h1 class="big-3">Skills</h1>
+				<div class="underline"></div>
+				<br>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="skill-mf">
+						<!-- Row 1: 3 Columns -->
+						<div class="row mt-2">
+							<!-- Column 1: Technologies & Frameworks -->
+							<div class="col-md-6">
+								<p class="title-s">Technologies & Frameworks</p>
+								<div class="skills-container">
+									<span class="skill-button">.NET Core 8</span>
+									<span class="skill-button">.NET Framework 4.5</span>
+									<span class="skill-button">ASP.NET</span>
+									<span class="skill-button">RESTful APIs</span>
+									<span class="skill-button">EF</span>
+									<span class="skill-button">Dapper</span>
+									<span class="skill-button">Angular 2+</span>
+									<span class="skill-button">MVC</span>
+									<span class="skill-button">SonarQube</span>
+									<span class="skill-button">Veracode</span>
+									<span class="skill-button">Docker</span>
+									<span class="skill-button">Terraform</span>
+									<span class="skill-button">Kubernetes</span>
+									<span class="skill-button">Datadog</span>
+									<span class="skill-button">RabbitMQ</span>
+									<span class="skill-button">Kafka</span>
+									<span class="skill-button">DevOps (CI/CD)</span>
+									<span class="skill-button">GitHub Actions</span>
+									<span class="skill-button">Vercel</span>
+								</div>
+							</div>
+							<!-- Column 2: Programming & Scripting -->
+							<div class="col-md-3">
+								<p class="title-s">Programming & Scripting</p>
+								<div class="skills-container">
+									<span class="skill-button">C</span>
+									<span class="skill-button">C#</span>
+									<span class="skill-button">Python</span>
+									<span class="skill-button">HTML</span>
+									<span class="skill-button">CSS</span>
+									<span class="skill-button">JavaScript</span>
+									<span class="skill-button">TypeScript</span>
+									<span class="skill-button">jQuery</span>
+									<span class="skill-button">JSON</span>
+									<span class="skill-button">YML</span>
+									<span class="skill-button">JWT</span>
+								</div>
+							</div>
+
+							<!-- Column 3: Databases -->
+							<div class="col-md-3">
+								<p class="title-s">Databases</p>
+								<div class="skills-container">
+									<span class="skill-button">SQL Server</span>
+									<span class="skill-button">MongoDB</span>
+									<span class="skill-button">Azure Blobs</span>
+									<span class="skill-button">Firebase</span>
+									<span class="skill-button">Cosmos DB</span>
+									<span class="skill-button">DynamoDB</span>
+								</div>
+							</div>
+
+
+						</div>
+
+						<!-- Row 2: 2 Columns (Azure Cloud Takes More Space) -->
+						<div class="row mt-2">
+							<!-- Column 1: Azure Cloud Services (Takes More Space) -->
+							<div class="col-md-6">
+								<p class="title-s">Cloud Services (Azure)</p>
+								<div class="skills-container">
+									<span class="skill-button">Web Apps</span>
+									<span class="skill-button">Functions</span>
+									<span class="skill-button">Active Directory</span>
+									<span class="skill-button">Logic Apps</span>
+									<span class="skill-button">API Management</span>
+									<span class="skill-button">Service Bus</span>
+									<span class="skill-button">Key Vault</span>
+									<span class="skill-button">Blob Storage</span>
+									<span class="skill-button">Virtual Machines (VMs)</span>
+									<span class="skill-button">Azure Kubernetes Service (AKS)</span>
+									<span class="skill-button">Azure Container Registry</span>
+									<span class="skill-button">Azure DevOps</span>
+									<span class="skill-button">OpenAI Services</span>
+									<span class="skill-button">AI Intelligence</span>
+								</div>
+							</div>
+
+							<!-- Column 3: Stacked (Tools & IDEs, Soft Skills) -->
+							<div class="col-md-3">
+								<!-- Tools & IDEs -->
+								<p class="title-s">Tools & IDEs</p>
+								<div class="skills-container">
+									<span class="skill-button">Visual Studio</span>
+									<span class="skill-button">VS Code</span>
+									<span class="skill-button">Postman</span>
+									<span class="skill-button">Git</span>
+									<span class="skill-button">GitHub</span>
+									<span class="skill-button">Bitbucket</span>
+									<span class="skill-button">Jira</span>
+									<span class="skill-button">Azure Boards</span>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<!-- Soft Skills -->
+								<p class="title-s">Soft Skills</p>
+								<div class="skills-container">
+									<span class="skill-button">Quick Learner</span>
+									<span class="skill-button">Self Motivated</span>
+									<span class="skill-button">Problem Solving</span>
+									<span class="skill-button">Time Management</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
 		</div>
 	</section>
 
@@ -530,11 +600,13 @@
 							<li>Architected and deployed a <strong>microservices-based solution</strong> using
 								<strong>Azure Container Registry with Docker</strong>
 								and <strong>Azure Kubernetes Services (AKS)</strong>, ensuring high availability and
-								<strong>99.9% uptime</strong>.</li>
+								<strong>99.9% uptime</strong>.
+							</li>
 							<li>Enhanced workflow automation for medical data processing by integrating <strong>Azure AI
 									Document Intelligence,
 									Tesseract OCR and ChatGPT 3.5 Turbo</strong>, reducing manual efforts by
-								<strong>60%</strong>.</li>
+								<strong>60%</strong>.
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -551,11 +623,10 @@
 							with <strong>.NET Core, Angular and cloud technologies.</strong>
 						</p>
 						<ul>
-							<li>Developed a <strong>PoC for an adaptive invoice reader</strong> using
-								<strong>Tesseract OCR, Azure AI Document Intelligence and ChatGPT 3.5 Turbo</strong>,
-								achieving
-								<strong>75% accuracy</strong> in automated data extraction.
-							</li>
+							<li>Designed and implemented a <strong>PoC for an adaptive invoice reader</strong>
+								leveraging <strong>Tesseract OCR, Azure AI Document Intelligence, SmartyStreets
+									autocomplete, Okta and ChatGPT 3.5 Turbo</strong>, achieving <strong>75%
+									accuracy</strong> in automated data extraction.</li>
 							<li>Integrated <strong>Ag Grid and address autocomplete services</strong> to enhance
 								real-time
 								data validation and reduce user input errors.</li>
@@ -604,7 +675,7 @@
 
 			<div class="row justify-content-center mt-5">
 				<div class="col-md-6 text-center ftco-animate">
-					<p><a href="https://drive.google.com/file/d/18KQZ1dGEK-Vh-Z_7OovU_M-4J8KamXrE/view?usp=sharing"
+					<p><a href="https://drive.google.com/file/d/1ACLNHTAR2Je9R2rh6WqrzzPVvG32qoOI/view?usp=sharing"
 							class="btn btn-primary py-4 px-5">Download CV</a></p>
 				</div>
 			</div>
@@ -620,45 +691,206 @@
 				</div>
 			</div>
 			<div class="row d-flex">
+				<!-- Project 1 -->
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
-						</a>
+						<a class="block-20 zoom-effect" href="https://student-expense-tracking-system.vercel.app/login"
+							target="_blank" style="background-image: url('images/expense-tracker.PNG');"></a>
 						<div class="text mt-3 float-right d-block">
 							<h3 class="heading">Student Expense Tracker</h3>
 							<p>Developed a real-time expense tracking system with budget tracking and multi-currency
-								support, improving financial awareness by 30%.</p>
+								support.</p>
+							<div class="project-buttons">
+								<a href="https://github.com/PraveenKumarSuggula/Student-Expense-Tracking-System"
+									target="_blank"><span class="icon-github"></span> GitHub</a>
+								<a href="https://student-expense-tracking-system.vercel.app/login" class="mx-4"
+									target="_blank"><span class="icon-live_tv"></span> Live Project</a>
+							</div>
 						</div>
 					</div>
 				</div>
 
+				<!-- Project 2 -->
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
-						</a>
+						<a class="block-20 zoom-effect" href="https://brain-squeezes.vercel.app/" target="_blank"
+							style="background-image: url('images/brain-squeezers.JPG');"></a>
 						<div class="text mt-3 float-right d-block">
 							<h3 class="heading">Brain-Squeezes</h3>
-							<p>Built a Q&A platform inspired by Stack Overflow with live chat and multimedia support,
-								increasing community engagement by 20%.</p>
+							<p>Built a Q&A platform inspired by Stack Overflow with live chat and multimedia support.
+							</p>
+							<div class="project-buttons">
+								<a href="https://github.com/PraveenKumarSuggula/Brain-Squeezes" target="_blank"><span
+										class="icon-github"></span> Github</a>
+								<a href="https://brain-squeezes.vercel.app/" class="mx-4" target="_blank"><span
+										class="icon-live_tv"></span> Live Project</a>
+							</div>
 						</div>
 					</div>
 				</div>
 
+				<!-- Project 3 -->
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry">
-						<a class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-						</a>
+						<a class="block-20 zoom-effect" style="background-image: url('images/Malware-Cisco.JPG');"></a>
 						<div class="text mt-3 float-right d-block">
 							<h3 class="heading">Ransomware Simulation</h3>
-							<p>Live demo of phishing email-based attacks using Python, improving security awareness
-								among 50+ attendees.</p>
+							<p>Live demo of phishing email-based attacks using Python.</p>
+							<div class="project-buttons">
+								<span class="private-repo text-primary"><span class="icon-lock"></span> GitHub (Private
+									Repository - Please Request
+									Access)</span>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<!-- More Projects (Initially Hidden) -->
+			<div id="more-projects" class="d-none">
+				<div class="row d-flex mt-4">
+					<!-- Project 4 -->
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="blog-entry">
+							<a class="block-20 zoom-effect" href="https://github.com/praveenkumarsuggula/Click2Learn"
+								target="_blank" style="background-image: url('images/click2learn.JPG');"></a>
+							<div class="text mt-3 float-right d-block">
+								<h3 class="heading">Click2Learn</h3>
+								<p>Click2Learn is a cloud-based e-learning platform with AI-driven learning, real-time
+									Q&A and email notifications, built using .NET Core, Angular and Azure for seamless
+									and secure user experience. </p>
+								<div class="project-buttons">
+									<a href="https://github.com/praveenkumarsuggula/Click2Learn" target="_blank"><span
+											class="icon-github"></span> GitHub</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project 5 -->
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="blog-entry justify-content-end">
+							<a class="block-20 zoom-effect" href="https://job-search-portal-ui.vercel.app/dashboard"
+								target="_blank" style="background-image: url('images/job-search-ui.JPG');"></a>
+							<div class="text mt-3 float-right d-block">
+								<h3 class="heading">Centralized Job Search</h3>
+								<p>Centralized Job Search integrates with LinkedIn, Indeed and Handshake to simplify
+									job hunting. Its AI-powered resume builder generates tailored resumes based on job
+									descriptions and user experience.</p>
+								<div class="project-buttons">
+									<a href="https://github.com/PraveenKumarSuggula/job-search-portal"
+										target="_blank"><span class="icon-github"></span> GitHub</a>
+									<a href="https://job-search-portal-ui.vercel.app/dashboard" class="mx-4"
+										target="_blank"><span class="icon-live_tv"></span> Live
+										Project</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project 6 -->
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="blog-entry justify-content-end">
+							<a class="block-20 zoom-effect"
+								href="https://job-search-portal-api.azurewebsites.net/swagger/index.html"
+								target="_blank" style="background-image: url('images/job-search-api.JPG');"></a>
+							<div class="text mt-3 float-right d-block">
+								<h3 class="heading">AI-Driven Resume Generator with .NET Core & ChatGPT</h3>
+								<p>Leveraging OpenAI's GPT-3.5 Turbo, this intelligent backend generates
+									tailored resumes, streamlining job applications. Powers a centralized job search
+									platform.</p>
+								<div class="project-buttons">
+									<a href="https://github.com/PraveenKumarSuggula/job-search-portal/tree/main/JobSearchPortalAPI"
+										target="_blank">
+										<span class="icon-github"></span> GitHub
+									</a>
+									<a href="https://job-search-portal-api.azurewebsites.net/swagger/index.html"
+										class="mx-4" target="_blank">
+										<span class="icon-live_tv"></span> API Endpoints
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row d-flex mt-4">
+					<!-- Project 7 -->
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="blog-entry">
+							<a href="https://auto-mobile-ui.vercel.app/login" class="block-20 zoom-effect"
+								target="_blank" style="background-image: url('images/drivo.JPG');"></a>
+							<div class="text mt-3 float-right d-block">
+								<h3 class="heading">Drivo – A Smart Auto Parts Store</h3>
+								<p>A next-gen auto parts store with advanced business-centric enhancements, including
+									multilingual support, intelligent filters, seamless payment gateway, user-driven
+									feedback and an admin portal for real-time inventory management.</p>
+								<div class="project-buttons">
+									<a href="https://github.com/PraveenKumarSuggula/AutoZone" target="_blank">
+										<span class="icon-github"></span> GitHub
+									</a>
+									<a href="https://auto-mobile-ui.vercel.app/login" class="mx-4" target="_blank">
+										<span class="icon-live_tv"></span> Live Project
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project 8 -->
+					<!-- Project: GoThinkers Tech -->
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="blog-entry">
+							<a href="https://gothinkerstech.com/" class="block-20 zoom-effect" target="_blank"
+								style="background-image: url('images/gothinkers.JPG');"></a>
+							<div class="text mt-3 float-right d-block">
+								<h3 class="heading">GoThinkers Tech – IT Consulting Platform</h3>
+								<p>A responsive consulting platform providing innovative IT staffing solutions, seamless
+									user experience and integrated maps for enhanced location accessibility and
+									navigation.</p>
+								<div class="project-buttons">
+									<span class="private-repo text-primary"><span class="icon-lock"></span> GitHub
+										(Private)</span>
+									<a href="https://gothinkerstech.com/" class="mx-4" target="_blank">
+										<span class="icon-live_tv"></span> Live Project
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- More Projects Button -->
+			<div class="text-center mt-4">
+				<button id="show-more-btn" class="btn btn-primary py-3 px-4 d-inline-flex align-items-center">
+					<span id="btn-icon" class="icon-plus-circle mr-2"></span>
+					<span id="btn-text">More Projects</span>
+				</button>
+			</div>
+
 		</div>
 	</section>
 
+	<!-- JavaScript to Toggle More Projects -->
+	<script>
+		document.getElementById("show-more-btn").addEventListener("click", function () {
+			var moreProjects = document.getElementById("more-projects");
+			var btnText = document.getElementById("btn-text");
+			var btnIcon = document.getElementById("btn-icon");
+
+			if (moreProjects.classList.contains("d-none")) {
+				moreProjects.classList.remove("d-none");
+				btnText.innerText = "Show Less"; // Change button text
+				btnIcon.classList.replace("icon-plus-circle", "icon-minus-circle"); // Change icon
+			} else {
+				moreProjects.classList.add("d-none");
+				btnText.innerText = "More Projects"; // Reset button text
+				btnIcon.classList.replace("icon-minus-circle", "icon-plus-circle"); // Reset icon
+			}
+		});
+	</script>
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-certifications">
 		<div class="container">
@@ -748,7 +980,8 @@
 					<div class="heading">
 						<h4> I love to solve business problems &amp; uncover hidden data stories </h4>
 						<br>
-						<p><a href="https://github.com/praveenkumarsuggula" class="btn btn-primary py-3 px-5" target="_blank">GitHub</a>
+						<p><a href="https://github.com/praveenkumarsuggula" class="btn btn-primary py-3 px-5"
+								target="_blank">GitHub</a>
 						</p>
 					</div>
 				</div>
@@ -804,7 +1037,7 @@
 							<span class="icon-globe"></span>
 						</div>
 						<h3 class="mb-4">Download Resume</h3>
-						<p><a href="https://drive.google.com/file/d/18KQZ1dGEK-Vh-Z_7OovU_M-4J8KamXrE/view?usp=sharing">Click
+						<p><a href="https://drive.google.com/file/d/1ACLNHTAR2Je9R2rh6WqrzzPVvG32qoOI/view?usp=sharing">Click
 								Here!</a></p>
 					</div>
 				</div>

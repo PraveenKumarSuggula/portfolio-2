@@ -12477,8 +12477,96 @@ h5,
 
 .image-bg {
   background-image: url(../images/bg_1.png);
-  bottom: 40px;
+  /* bottom: 40px; */
+  width: 40% !important;
+  height: 75vh  !important;
+  right: 4% !important;
+  bottom: 25% !important;
 }
+
+.about {
+  margin-top: -15% !important;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1200px) {
+  .image-bg {
+    width: 50% !important;
+    height: 45vh !important;
+    bottom: 4% !important;
+  }
+  .about {
+    margin-top: 0% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .image-bg {
+    width: 80% !important;
+    height: 65vh !important;
+    bottom: 0% !important;
+  }
+
+  .about {
+    margin-top: 5% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-bg {
+    width: 82% !important;
+    height: 55vh !important;
+    right: 0% !important;
+    bottom: 15% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .image-bg {
+    right: 5% !important;
+    position: relative;
+    top: -35% !important;
+    bottom: 0% !important
+  }
+  .about {
+    margin-top: -50% !important;
+  }
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.skill-button {
+  background-color: #ffbd39;
+  color: #000000;
+  padding: 5px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.skill-button:hover {
+  background-color: #ffbd39;
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: 100%;
+  }
+}
+
 
 .slider-text h2 {
   font-size: 48px;
@@ -12560,10 +12648,10 @@ h5,
 
 .btn {
   cursor: pointer;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  border-radius: 40px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  border-radius: 12px;
   -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
@@ -12647,8 +12735,8 @@ h5,
 
 .btn.btn-white.btn-outline-white:hover {
   border: 1px solid transparent;
-  background: #ffbd39;
-  color: #fff;
+  background: #ffbd39 !important;
+  color: #000000 !important;
 }
 
 .ftco-about .img-about {
